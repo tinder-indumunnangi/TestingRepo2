@@ -1,9 +1,8 @@
 name: Automatically create PR in Tinderweb on new release
 
 on:
-  push:
-    tags:
-      - "*"
+  release:
+    - "*"
 
 jobs:
   release:
