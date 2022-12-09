@@ -15,7 +15,7 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2.1.1
         with:
-          token: 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
+          token: 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
           repository: tinder-indumunnangi/TestRepo1
           event-type: my-event
           client-payload: '{"ref": "${{ github.ref }}", "tag": "tagTest"}'
